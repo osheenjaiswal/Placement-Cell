@@ -1,0 +1,85 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/Background.png) no-repeat center center/cover;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+    .banner{
+        height: 100%;
+    }
+  }
+  
+.login_box {
+    width: 1000px;
+    height: 500px;
+    background: rgb(247, 244, 244);
+    box-shadow: 5px 5px 10px rgb(201, 196, 196);
+    padding: 10px 10px;
+    
+}
+@media screen and (max-width: 480px) {
+    .login_box{
+        height: 100%;
+    }
+  }
+  @media screen and (max-width: 426px) {
+    .banner{
+        padding: 0px;
+        height: 100%;
+    }
+  }
+
+.formbox {
+    margin-left: 0px;
+}
+
+.formbox h2 {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.linksignup {
+    padding-top: 20px;
+}
+
+.signupbox {
+    width: 1000px;
+    height: 550px;
+    background: rgb(247, 244, 244);
+    box-shadow: 5px 5px 10px rgb(201, 196, 196);
+    padding: 10px 10px;
+
+}
+
+.signupform h2 {
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+.signupcontent h2{
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.logincontent h2 {
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.sign-banner{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/Background.png) no-repeat center center/cover;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
